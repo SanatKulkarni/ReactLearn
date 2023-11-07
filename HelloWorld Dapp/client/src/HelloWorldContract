@@ -1,0 +1,49 @@
+export const helloWorldContractAddress = '0x34642574552A2cb7e56Dd703f4EdBaDce01CF797';
+export const helloWorldContractABI = [
+    {
+      "type": "constructor",
+      "name": "",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "greeting",
+      "inputs": [],
+      "outputs": [
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "sayHello",
+      "inputs": [],
+      "outputs": [
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "setGreeting",
+      "inputs": [
+        {
+          "type": "string",
+          "name": "_greeting",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    }
+  ];
