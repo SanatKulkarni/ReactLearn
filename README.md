@@ -1,2 +1,2 @@
 # ReactLearn
-Basic Hello World Decentralised Application using React as frontend.
+Adding the stuff I am learning while integrating React and Smart Contracts
